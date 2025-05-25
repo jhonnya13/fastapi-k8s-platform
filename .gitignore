@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.env
+.env.*
+*.log
+
+# VS Code
+.vscode/
+.history/
+
+# macOS
+.DS_Store
+
+# Docker
+*.tar
+*.pid
+
+# Kubernetes
+*.yaml~
+.kube/
+*.lock
+
+# Dev containers
+.devcontainer/.env
+.devcontainer/*.log
+
+# Python virtual environments
+venv/
+env/
+.vfx_base_venv/
+
+# Git
+*.swp
+*.swo
+.idea/
+*.bak
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
